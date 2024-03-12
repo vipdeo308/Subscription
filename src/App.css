@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  height:100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0000FF;
+}
+
+ul {
+  list-style: none;
+}
+
+ul .tick:before {
+  content: '✓';
+}
+
+ul .cross:before {
+  content: '✗';
+}
+
+.card{
+  margin: 10px;
+  border-radius: 10px;
+}
+
+span{
+  color:grey;
+}
+
+.card-text{
+  text-align: left;
+}
